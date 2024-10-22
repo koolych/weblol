@@ -1,0 +1,12 @@
+:root {
+    --font: "Roboto";
+    --bg: #131131;
+    --htext: #f19915;
+    --text: #ffffffc4;
+  }
+  
+body {
+    background: var(--bg);
+    font-family: var(--font);
+  }
+.text{color:var(--htext)}
