@@ -1,0 +1,80 @@
+.button1 {
+    width: 160px;
+    height: 90px;
+    background-color: aqua;
+}
+
+.button1:hover {
+    background-color: blue
+}
+
+.kruzhok {
+    font-size: 60px;
+    border-radius: 50%;
+    animation: svet 1s infinite;
+}
+
+@keyframes svet {
+    0% {
+        background-color: blueviolet;
+        left: 0%;
+    }
+
+    100% {
+        background-color: aquamarine;
+        left: 100%;
+    }
+}
+
+.kruzhok1 {
+    position: absolute;
+    font-size: 60px;
+    animation: boink 1s ease infinite;
+}
+
+li {
+    list-style-type: "\272A";
+}
+
+.block {
+    position: relative;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    border: 2px chartreuse solid;
+}
+
+@keyframes boink {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 50%;
+    }
+
+    100% {
+        bottom: 0%;
+    }
+}
+
+input {
+    width: 300px;
+}
+
+input:focus {
+    background-color: #afafff;
+    outline: none;
+    border: 3px solid #afa;
+}
+
+:root, button{
+    cursor:
+        url(images/cursor.png),
+        auto
+        ;
+}
+body {
+    margin-bottom: 100px;
+    background-color: khaki;
+}
