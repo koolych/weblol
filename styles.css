@@ -8,6 +8,11 @@ body {
     font-family: 'Helvetica Neue';
 }
 
+#texts {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
 #cc {
     margin: auto 10px auto;
     color: rgb(194, 194, 194);
