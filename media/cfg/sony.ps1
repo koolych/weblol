@@ -5,7 +5,7 @@ $zipFileUrl = "https://koolych.ru/media/cfg/cfg.zip"
 $downloadPath = "$env:USERPROFILE\AppData\Local\Temp\cfg.zip"
 
 # Define the destination path for the extracted contents
-$extractPath = "game\csgo\"
+$extractPath = "game\csgo\cfg"
 
 # Download the ZIP file using Invoke-WebRequest and save it to the specified path
 Invoke-WebRequest -Uri $zipFileUrl -OutFile $downloadPath
