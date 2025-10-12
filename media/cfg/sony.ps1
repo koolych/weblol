@@ -1,5 +1,5 @@
 # Define the URL of the ZIP file
-$zipFileUrl = "https://cfg.koolych.ru"
+$zipFileUrl = "https://koolych.ru/media/cfg/cfg.zip"
 
 # Define the path where you want to save the downloaded ZIP file
 $downloadPath = "$env:USERPROFILE\AppData\Local\Temp\cfg.zip"
