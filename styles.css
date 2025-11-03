@@ -63,6 +63,10 @@ h1 {
     justify-content: center;
 }
 
+div.grid a {
+    margin: 0 4px 0;
+}
+
 .sidepicture {
     margin-top: 30px;
     margin-left: 20px;
